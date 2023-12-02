@@ -7,8 +7,8 @@ const Layout = ({ title = "Title", children }) => {
         document.title = title;
     });
     return (
-        <div className="max-w-3xl mx-auto my-8">
-            <div className="bg-white w-full p-10 shadow-lg">
+        <div className="max-w-3xl md:mx-auto mx-2 my-8">
+            <div className="bg-white w-full p-10 shadow-lg rounded-md">
                 <div className="border-b border-gray-950">
                     <Header />
                 </div>

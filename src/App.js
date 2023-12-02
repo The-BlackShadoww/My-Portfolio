@@ -1,10 +1,11 @@
-import Container from "./components/Container";
+import { BrowserRouter } from "react-router-dom";
+import RoutesComponent from "./routers/RoutesComponent";
 
 function App() {
     return (
-        <div>
-            <Container />
-        </div>
+        <BrowserRouter>
+            <RoutesComponent />
+        </BrowserRouter>
     );
 }
 
