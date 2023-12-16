@@ -8,7 +8,7 @@ const ProjectList = () => {
             <p>These are some project I built at some point in my life.</p>
             <div className="mt-5">
                 <span className="underline">
-                    <Link to={"/e-commerce"}>E-Commerce app </Link>
+                    <Link to={"/e-commerce-app"}>E-Commerce app </Link>
                 </span>
                 <br />
             </div>
